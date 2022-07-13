@@ -367,7 +367,7 @@ export default function Album() {
 					color="text.secondary"
 					component="p"
 				>
-					© {new Date().getFullYear()}, Built with love by Agatha Ambrose
+					© {new Date().getFullYear()}, Built with love ❤️ by Agatha Ambrose
 				</Typography>
 			</Box>
 			{/* End footer */}

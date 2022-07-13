@@ -6,7 +6,7 @@ An Engineering assessment fulfilment for Helicarrier 🚀
 Clone the repo and access the project folder:
 
 ```sh
-git clone
+git clone https://github.com/agathambrose/Helicarrier-Agatha-Ambrose.git
 cd nextjs
 ```
 
