@@ -204,7 +204,7 @@ export default function Album() {
 			.then((res) => {
 				console.log(res);
 				if (res.data.allJobs) {
-					// group data into an array of objects by date and data is an array of jobs
+					// group data into an array of objects by date and data to an array of jobs
 					const groupedData = res.data.allJobs.reduce((acc, curr) => {
 						const date = curr.date;
 						if (!acc[date]) {

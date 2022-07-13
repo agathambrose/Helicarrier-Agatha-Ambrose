@@ -1,50 +1,31 @@
 # Helicarrier-Agatha-Ambrose
 An Engineering assessment fulfilment for Helicarrier
 
-
-# Next.js example
-
 ## How to use
 
-Download the example [or clone the repo](https://github.com/mui/material-ui):
-
-<!-- #default-branch-switch -->
+Download the example or clone the repo:
 
 ```sh
-curl https://codeload.github.com/mui/material-ui/tar.gz/master | tar -xz --strip=2  material-ui-master/examples/nextjs
+git clone
 cd nextjs
 ```
 
-Install it and run:
+Install Node Modules & Graphql Server then run it:
 
 ```sh
-npm install
+npm i
+npm i -g json-graphql-server
 npm run dev
 ```
 
-or:
+### Project Details
+In this project, I used;
+- NextJS which is a ReactJS framework because of its advanced outlook on pages, components and styling. Grouping them easily without too much fine-tuning, right out of the box.
 
-<!-- #default-branch-switch -->
+- Material UI because of how simple it is to style on-the go. Usually I'd use tailwind but for this project, Material UI did the job. The project doesn't require any fancy styling and Material UI kept it clean regardless.
 
-[![Edit on StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/mui/material-ui/tree/master/examples/nextjs)
+- SASS because who wants the burden of vanilla css slowing them. Sass bundles css into better sizable bits. Yeah the css in this project isn't much but out of habit, SASS got incorporated for best practices purposes.
 
-[![Edit on CodeSandbox](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/github/mui/material-ui/tree/master/examples/nextjs)
+...And that's it! It was fun to build, incorporating conditionals, filtering through an object of arrays then hooking up the graphql endpoint.
 
-## The idea behind the example
-
-The project uses [Next.js](https://github.com/vercel/next.js), which is a framework for server-rendered React apps.
-It includes `@mui/material` and its peer dependencies, including `emotion`, the default style engine in MUI v5.
-If you prefer, you can [use styled-components instead](https://mui.com/material-ui/guides/interoperability/#styled-components).
-
-## The link component
-
-Next.js has [a custom Link component](https://nextjs.org/docs/api-reference/next/link).
-The example folder provides adapters for usage with MUI.
-More information [in the documentation](https://mui.com/material-ui/guides/routing/#next-js).
-
-## What's next?
-
-<!-- #default-branch-switch -->
-
-You now have a working example project.
-You can head back to the documentation, continuing browsing it from the [templates](https://mui.com/material-ui/getting-started/templates/) section.
+### The Ambrose Jobboard | Built with love
