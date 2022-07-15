@@ -15,6 +15,7 @@ Install Node Modules & Graphql Server then run it:
 ```sh
 npm i
 npm i -g json-graphql-server
+json-graphql-server configuration.js --p 3001 (make sure to do this before the next step of running the projects development server. VERY IMPORTANT.)
 npm run dev
 ```
 
