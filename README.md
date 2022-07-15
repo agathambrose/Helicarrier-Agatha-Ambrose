@@ -3,19 +3,36 @@ An Engineering assessment fulfilment for Helicarrier 🚀
 
 ## How to use
 
-Clone the repo and access the project folder:
+Kindly follow the below listed steps closely;
+
+- Clone the repo and gain access to the project's folder:
 
 ```sh
 git clone https://github.com/agathambrose/Helicarrier-Agatha-Ambrose.git
 cd nextjs
 ```
 
-Install Node Modules & Graphql Server then run it:
+- Install Node Modules:
 
 ```sh
-npm i
-npm i -g json-graphql-server
-json-graphql-server configuration.js --p 3001 (make sure to do this before the next step of running the projects development server. VERY IMPORTANT.)
+npm i or npm install
+```
+
+- Install Json Graphql Server
+
+```sh
+npm i -g json-graphql-server or npm install -global json-graphql-server
+```
+
+- Run Json Graphql Server (make sure to do this before the next step of running the projects development server. VERY IMPORTANT.)
+
+```sh
+json-graphql-server configuration.js --p 3001
+```
+
+Start development server
+
+```sh
 npm run dev
 ```
 
